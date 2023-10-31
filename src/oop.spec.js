@@ -25,7 +25,7 @@ describe('ООП', () => {
             assert.strictEqual(point.y, 0);
         });
 
-        it('Метод distanceToCeter работает корректно', () => {
+        it('Метод distanceToCenter работает корректно', () => {
             const point = new core.Point(4, 3);
 
             assert.strictEqual(point.distanceToCenter(), 5);
@@ -60,7 +60,7 @@ describe('ООП', () => {
             assert.strictEqual(length, 5);
         });
 
-        it('Метод distanceToCeter работает корректно', () => {
+        it('Метод distanceToCenter работает корректно', () => {
             const point = new core.Point3D(1, 2, 4);
 
             assert.strictEqual(point.distanceToCenter(), 4.58257569495584);
