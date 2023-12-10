@@ -15,7 +15,7 @@ function fioToName(fio) {
 // присмотритесь к коллекции "Set"
 function filterUnique(array) {
     const set = new Set(array)
-    return new Array(set)
+    return [...set]
 }
 
 // Задача: разница зарплат
